@@ -37,7 +37,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 13.88 45.635)
+		(grid_origin 91.906177 78.971512)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -2925,7 +2925,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at -2.829818 0 90)
+			(at 2.981145 0.374912 90)
 			(layer "F.SilkS")
 			(uuid "7ba8b9d6-d417-4fb3-9eaa-9c8e78933c72")
 			(effects
@@ -3850,8 +3850,8 @@
 			)
 		)
 		(property "Value" "STM32F042K6Tx"
-			(at 0 5.88 45)
-			(layer "F.Fab")
+			(at -13.021371 13.021371 0)
+			(layer "F.SilkS")
 			(uuid "b21911cc-4fcf-41e7-b201-8d119813bdd8")
 			(effects
 				(font
@@ -7051,8 +7051,8 @@
 			)
 		)
 		(property "Value" "MAX490E"
-			(at 0 3.4 90)
-			(layer "F.Fab")
+			(at -4.285371 0 180)
+			(layer "F.SilkS")
 			(uuid "613b8486-99f7-48f6-ab5a-a17ac3411917")
 			(effects
 				(font
@@ -15422,8 +15422,8 @@
 			)
 		)
 		(property "Value" "MCP2551-I-SN"
-			(at 0 3.4 0)
-			(layer "F.Fab")
+			(at 0 3.231435 180)
+			(layer "F.SilkS")
 			(uuid "66e7772c-a31a-4521-90e3-86b1199bdb7e")
 			(effects
 				(font
@@ -24505,6 +24505,30 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "cb7acc17-7609-4784-bf64-1c85ec09e7eb")
+	)
+	(gr_text "V 2.0"
+		(at 154.136177 66.906512 0)
+		(layer "F.SilkS")
+		(uuid "bf925fee-2167-4d5d-9c20-4f63798b497e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "V 2.0"
+		(at 132.546177 81.511512 0)
+		(layer "F.SilkS")
+		(uuid "f4292f86-c6d7-4022-899a-7af6216945dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "\n5V\nCANH\nCANL\nGND"
 		(at 96.313289 94.848065 0)
