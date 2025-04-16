@@ -2563,6 +2563,12 @@
 		(uuid "1e99b865-ee7e-41b9-8907-6c371f312673")
 	)
 	(junction
+		(at 44.45 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f8fba76-249b-4013-bc2f-54b5165ceeac")
+	)
+	(junction
 		(at 63.5 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2820,6 +2826,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 68.58) (xy 58.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19db16fa-dcfd-4443-a025-08a6b1cc6f0e")
+	)
+	(wire
+		(pts
 			(xy 144.78 69.85) (xy 149.86 69.85)
 		)
 		(stroke
@@ -2920,16 +2936,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 59.69) (xy 119.38 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ebc191c-a6ea-4799-9aff-b37d69879308")
-	)
-	(wire
-		(pts
 			(xy 144.78 64.77) (xy 151.13 64.77)
 		)
 		(stroke
@@ -3017,6 +3023,16 @@
 			(type default)
 		)
 		(uuid "4e05cbce-dd15-4ff9-8450-d0ccb558e185")
+	)
+	(wire
+		(pts
+			(xy 46.99 68.58) (xy 44.45 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f87746f-84b1-4475-9df7-7b7e445ad994")
 	)
 	(wire
 		(pts
@@ -3210,6 +3226,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 68.58) (xy 58.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e3df964-b282-45a4-9712-18e8fdf94a52")
+	)
+	(wire
+		(pts
 			(xy 144.78 80.01) (xy 147.32 80.01)
 		)
 		(stroke
@@ -3257,6 +3283,16 @@
 			(type default)
 		)
 		(uuid "799edec7-3728-4f42-b37e-8555c8255bce")
+	)
+	(wire
+		(pts
+			(xy 113.03 72.39) (xy 119.38 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db9b1d8-d439-4708-8e7d-d8e393e949aa")
 	)
 	(wire
 		(pts
@@ -3697,6 +3733,16 @@
 			(type default)
 		)
 		(uuid "d19de714-803d-493f-ad09-fec752a6593e")
+	)
+	(wire
+		(pts
+			(xy 44.45 68.58) (xy 44.45 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e82716-5ca6-4f5c-9dab-b7e6392c128d")
 	)
 	(wire
 		(pts
@@ -4484,6 +4530,28 @@
 			)
 		)
 	)
+	(global_label "PB7"
+		(shape input)
+		(at 113.03 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "684e323e-10ff-40c4-b3f5-870ca760345e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.2953 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_DN"
 		(shape input)
 		(at 148.59 72.39 0)
@@ -4612,28 +4680,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PB1"
-		(shape input)
-		(at 113.03 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6f9cd0a-4818-400b-a5b0-8c71e9ccef9d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.2953 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5924,10 +5970,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "5f6524c8-842d-47de-b691-a69a78e8a761")
 		(property "Reference" "SW10"
-			(at 52.07 64.77 0)
+			(at 39.624 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +5980,7 @@
 			)
 		)
 		(property "Value" "Reset"
-			(at 52.07 67.31 0)
+			(at 39.624 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6994,6 +7039,73 @@
 			(project "macropad"
 				(path "/affdcae3-2b9b-4248-bf2d-36ec8abc82bb"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 52.07 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "da448979-85fd-41bb-9401-7a0138cd0b7f")
+		(property "Reference" "SW11"
+			(at 39.878 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Reset"
+			(at 39.878 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+			(at 52.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 52.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "977c2120-52b0-4f4f-a6c7-5cd6a29bfa99")
+		)
+		(pin "1"
+			(uuid "7d00430d-61e9-4b49-957a-eacdf2c2a63f")
+		)
+		(instances
+			(project "macropad"
+				(path "/affdcae3-2b9b-4248-bf2d-36ec8abc82bb"
+					(reference "SW11")
 					(unit 1)
 				)
 			)
