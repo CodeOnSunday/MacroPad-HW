@@ -4474,7 +4474,7 @@
 			)
 		)
 	)
-	(global_label "USART1_RX"
+	(global_label "USART1_Rx"
 		(shape input)
 		(at 149.86 69.85 0)
 		(fields_autoplaced yes)
@@ -4716,7 +4716,7 @@
 			)
 		)
 	)
-	(global_label "USART1_TX"
+	(global_label "USART1_Tx"
 		(shape input)
 		(at 149.86 67.31 0)
 		(fields_autoplaced yes)
