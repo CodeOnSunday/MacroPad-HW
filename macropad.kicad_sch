@@ -7832,48 +7832,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 303.53 0)
-		(size 83.82 39.37)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5b068d42-1efa-451d-958a-668b662208d8")
-		(property "Sheetname" "Keyboard"
-			(at 303.53 -0.7116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "keyboard.kicad_sch"
-			(at 303.53 39.9546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "macropad"
-				(path "/affdcae3-2b9b-4248-bf2d-36ec8abc82bb"
-					(page "2")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
