@@ -12080,7 +12080,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "\n5V\nCANH\nCANL\nGND"
+	(gr_text "GND\nCANL\nCANH\n5V\n"
 		(at 96.313289 94.848065 0)
 		(layer "B.SilkS")
 		(uuid "1cbef22c-3f84-4893-b29f-474387dcdfbb")
@@ -12159,7 +12159,7 @@
 		)
 	)
 	(gr_text "*CAN*"
-		(at 99.605 87.545 0)
+		(at 100.170588 87.78183 0)
 		(layer "B.SilkS")
 		(uuid "ba78b271-12b5-420b-8f9f-1bd6d0a8878f")
 		(effects
